@@ -1,0 +1,29 @@
+
+.fondoMenu {
+    background-color: rgb(149, 35, 35);
+}
+/* empato por especificidad a bootstrap y ahora, por cascada, porque éste archivo CARGA despues de bootstrap, ganará esta regla */
+.navbar-light .navbar-nav .nav-link {
+color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: rgb(242, 232, 198);
+    color: rgb(149, 35, 35);
+    border-radius: 10px;
+}
+.active {
+    background-color: rgb(242, 232, 198);
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+#caracteristicas {
+    margin-top: 20px;
+}
+
+footer {
+     background-color: rgb(149, 35, 35);
+     color: white;
+}
