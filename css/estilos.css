@@ -17,7 +17,15 @@ color: white;
 .navbar-collapse {
     flex-grow: 0;
 }
-
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.bi-facebook {
+    font-size: 30px;
+    color: rgb(242, 232, 198)
+}
 
 #caracteristicas {
     margin-top: 20px;
